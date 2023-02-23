@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  /* padding: 10px; */
+
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 880px;
+	min-height: 1000px;
+	background: #D9D9D9;
+  
+	margin: 10px;
+	flex-direction: column;
+  box-shadow: 0 35px 35px rgba(0,0,0,0.1);
+}
+
+.container .top {
+  display: flex;
+}
+.container .top .left{
+  background: #2a354b;
+  height: 230px;
+  padding-top: 95px;
+  padding-left: 5px;
+  justify-content: center;
+  text-align: center;
+}
+.container .top .right{
+  background: #2a354b;
+}
+
+.container .top p {
+  color: white;
+  font-size: 45px;
+  /* padding-bottom: 0; */
+  margin-bottom: 18px;
+}
+
+.container .top hr {
+  width: 85%;
+  height: 2px;
+  background-color: rgb(78, 76, 76);
+  border: none;
+}
+
+.container .top #role {
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 12px 1px 12px 1px;
+}
+
+
+.container .bot {
+  /* background: blue; */
+  height: 1020px;
+  /* padding: 8px; */
+  display: flex;
+}
+.container .left {
+  /* background: yellow; */
+  width: 530px;
+  /* padding: 5px; */
+}
+.container .right {
+  /* background: pink; */
+  width: 350px
+}
+
+.category {
+  padding: 0 0 0 0;
+}
+
+.category h2 {
+  background-color: #EFF0F2;
+  padding: 5px 8px 5px 8px;
+  width: 92%;
+  text-align: center;
+  color: #2A354B;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.category h3, h4, p{
+  padding: 5px;
+  margin: 0;
+}
+
+.category h3 {
+  color: #9B675C;
+}
+/* .container .left {
+	position: relative;
+	background: #003147;
+	padding: 40px;
+} */
+
+.profile-text .img-bx {
+	position: relative;
+  /* margin-top: 110px; */
+	width: 350px;
+	height: 350px;
+	/* border-radius: 50%; */
+	overflow: hidden;
+
+	/* justify-content: ; */
+	/* object-fit: cover; */
+
+}
+
+.profile-text .img-bx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.contact-info ul {
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.contact-info ul li .icon {
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #2A354B;
+
+}
+
+.contact-info ul li span {
+	/* color: white; */
+	font-weight: 300;
+}
+
+.text {
+	/* font-size: 14px; */
+}
+
+.text-links {
+	text-decoration: none;
+	color: #2A354B;
+}
+
+.signature .img-bx {
+  position: relative;
+}
+
+.signature .img-bx img {
+  position: absolute;
+
+  width: 300px;
+  margin-left: 20px;  
+}
+
+.signature-text p {
+  padding-top: 180px;
+  text-align: center;
+}
+
+.signature-text hr {
+  width: 80%;
+  background-color: black;
+  height: 1px;
+  margin-top: 0;
+}
